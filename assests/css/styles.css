@@ -1,0 +1,42 @@
+body {
+    background-image: url('./../images/9a85cb6b-c402-4117-9530-8bd26035d2d1.jpeg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    background-attachment: fixed; 
+    margin: 0; 
+    height: 100vh
+}
+h1{
+    font-size: 25 ;
+        color:maroon;
+    
+}
+h2 {font-size: 25 ;
+    color: green;
+}
+h3 {
+    font-size: 25 ;
+    color:blueviolet
+
+}
+h4{
+    font-size: 25 ;
+    color:aqua
+    
+    
+}
+h5{
+    font-size: 25
+}
+h1, h2, h3, h4, h5{
+    text-decoration: underline;
+}
+p{
+    font-size: 20px;
+    font-style: bold;
+}
+ol{
+    font-size: 20px;
+}
+
