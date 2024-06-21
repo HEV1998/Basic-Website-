@@ -27,16 +27,48 @@ h4{
     
 }
 h5{
-    font-size: 25
+    font-size: 25;
+    color:purple
 }
-h1, h2, h3, h4, h5{
+h6{
+    font-size: 25 ;
+    color:yellow
+
+}
+h1, h2, h3, h4, h5,h6{
     text-decoration: underline;
 }
 p{
     font-size: 20px;
     font-style: bold;
 }
-ol{
+ul{
     font-size: 20px;
+    border: 1px solid #0c0c0c; /* Example border style */
+    padding: 20px;
 }
 
+#bold-text {
+    font-weight: bold;
+    }
+    /* Basic styling for the accordion */
+.accordion-item {
+    margin-bottom: 10px;
+}
+
+.accordion-title {
+   
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+   
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    background-color: #faf9f9;
+}
