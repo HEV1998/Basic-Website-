@@ -48,5 +48,26 @@ $(document).ready(function() {
             // Hide other open content
             $(this).parent().siblings().find('.accordion-content').slideUp();
         });
+        const images = [
+            'assests/images/5A840FA3-188B-48E3-95A1-C36E59B10214.jpeg',
+           'assests/images/da0cae36-f5d6-47e8-af96-5d891b399c55.jpeg',
+            'assests/images/9a85cb6b-c402-4117-9530-8bd26035d2d1.jpeg' // Use .jpg if that's the correct extension
+        ];
+    
+        // Initialize the index for the current image
+        let currentIndex = 0;
+    
+        // Set the initial background image
+        $('body').css('background-image', `url(${images[currentIndex]})`);
+    
+        // Add event listener for the button
+        $('#switchBackgroundButton').click(function() {
+            // Update the index to the next image
+            currentIndex = (currentIndex + 1) % images.length;
+    
+            // Set the new background image
+            $('body').css('background-image', `url(${images[currentIndex]})`);
+        });
     });
-});
+    });
+
